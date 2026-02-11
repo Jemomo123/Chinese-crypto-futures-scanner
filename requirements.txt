@@ -1,6 +1,13 @@
-# Upgrade build dependencies
-setuptools>=69.0
-wheel>=0.43
-cython>=3.0.8
-pandas==2.2.1  # Newer version with better compatibility
+# Core dependencies
+pandas==2.2.1
 numpy==1.26.4
+matplotlib==3.8.2
+streamlit==1.30.0
+
+# Build tools
+setuptools==69.0.3
+wheel==0.43.0
+cython==3.0.8
+
+# Force binary dependencies
+--prefer-binary
